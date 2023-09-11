@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "https://pradhip98.github.io/Food-List-Manager",
+  "homepage": "https://pradhip98.github.io/Food-Manager",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
