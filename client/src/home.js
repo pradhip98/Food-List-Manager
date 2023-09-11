@@ -5,7 +5,7 @@ function Home() {
   //retrive food
   const [data,setData] = useState([])
   useEffect(()=>{
-     axios.get(`http://localhost:5000/get`)
+     axios.get(`https://server-ftej.onrender.com/get`)
      .then(res=>{
         setData(res.data.Result)
      })
@@ -21,7 +21,7 @@ function Home() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    axios.post(`http://localhost:5000/insert`, value)
+    axios.post(`https://server-ftej.onrender.com/insert`, value)
       .then(() => console.log(`Successfully sent`))
       .catch((err) => console.log(err))
 
@@ -39,7 +39,7 @@ function Home() {
   })
     const handleUpdate=(e)=>{
       const id=update.id
-      axios.put(`http://localhost:5000/update/`+id,update)
+      axios.put(`https://server-ftej.onrender.com/update/`+id,update)
       .then(()=>{
         console.log(`success`)
       })
@@ -52,7 +52,7 @@ function Home() {
     }
     //delete
     const deleteFood=(id)=>{
-      axios.delete(`http://localhost:5000/delete/`+id)
+      axios.delete(`https://server-ftej.onrender.com/delete/`+id)
       .then(res=>{
         if(res.data.Status === `Success`){
           window.location.reload();
