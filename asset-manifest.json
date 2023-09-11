@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Food-List-Manager/client/static/css/main.da3089f3.css",
+    "main.js": "/Food-List-Manager/client/static/js/main.5cd01a15.js",
+    "index.html": "/Food-List-Manager/client/index.html",
+    "main.da3089f3.css.map": "/Food-List-Manager/client/static/css/main.da3089f3.css.map",
+    "main.5cd01a15.js.map": "/Food-List-Manager/client/static/js/main.5cd01a15.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da3089f3.css",
+    "static/js/main.5cd01a15.js"
+  ]
+}
